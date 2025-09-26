@@ -14,21 +14,21 @@ realizados. Se usó un giroscopio para medir la velocidad angular y un puente H 
 
 ## 🔄 Lazo de Control
 <p align="center">
-<img src="docs/esquema control temp.png" alt="Diagrama sistema" width="500">
+<img src="docs/diagrama auto.png" alt="Diagrama sistema" width="500">
 </p>
 
 ## 🖼️ Render 3D PCB
 <p align="center">
-<img src="docs/procesotemp.png" alt="PCB Render" width="500">
+<img src="docs/shield teensy_v2.jpg" alt="PCB Render" width="500">
 </p>
 ---
 
 ## ⚡ Prototipo físico
 <p align="center">
-<img src="docs/armado.jpg" alt="Foto del prototipo" width="400">
+<img src="docs/auto4.jpg" alt="Foto del prototipo" width="400">
 </p>
 <p align="center">
-<img src="docs/setup_completo.jpg" alt="Foto del prototipo" width="400">
+<img src="docs/auto7.jpg" alt="Foto del prototipo" width="400">
 </p>
 
 ## 📜 Licencias

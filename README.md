@@ -6,7 +6,7 @@ realizados. Se usó un giroscopio para medir la velocidad angular y un puente H 
 
 ## 📂 Contenido
 - `/Hardware` → esquemático, PCB, Gerbers.
-- `/control_temp_LC` → código en C para Teensy.
+- `/control_car` → código en C para Teensy en entorno de Arduino.
 - `/docs` → fotos.
 
 ## 🌐 YouTube

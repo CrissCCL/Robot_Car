@@ -18,6 +18,9 @@ A gyroscope measures angular velocity, while an H-bridge drives the motors. The 
 <img src="docs/diagrama auto.png" alt="Diagrama sistema" width="500">
 </p>
 
+### Controlled Variables
+- **Yaw** → Angular velocity control (rotation rate)
+
 ## 📐 Digital PID Control
 
 The UAV uses a discrete PI controller implemented on a Teensy microcontroller.  

@@ -18,8 +18,8 @@ Para manejar el robot, se realizó por medio de un control remoto Flysky FS-6X u
 <p align="center">
 <img src="docs/diagrama auto.png" alt="Diagrama sistema" width="500">
 </p>
-## :triangular_ruler: Diagrama conexiones
 
+## :triangular_ruler: Diagrama conexiones
 <p align="center">
 <img src="docs/conexiones.png" alt="Esquema de conexiones" width="500">
 </p>

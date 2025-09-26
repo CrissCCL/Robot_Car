@@ -1,7 +1,7 @@
 # 🚀 Auto robot con trayectoria asistida
 
 ## 📖 Descripción
-Se desarrolla y construye un auto robot. El control del sistema se realizó usando Teensy, con el objetivo de aumentar la estabilidad y velocidad de los cómputos
+Se desarrolla y construye un auto robot modelar e implementar un sistema de trayectoria asistida (Drive by wire). El control del sistema se realizó usando Teensy, con el objetivo de aumentar la estabilidad y velocidad de los cómputos
 realizados. Se usó un giroscopio para medir la velocidad angular y un puente H para manipular los motores. 
 
 Para manejar el robot, se realizó por medio de un control remoto Flysky FS-6X utilizando una señal modulada en PPM/PWM.

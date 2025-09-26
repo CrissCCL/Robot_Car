@@ -10,6 +10,45 @@ A gyroscope measures angular velocity, while an H-bridge drives the motors. The 
 - `/control_car` → C code for Teensy in the Arduino environment.
 - `/docs` → photos.
 
+## 📐 Digital PID Control
+
+The UAV uses a discrete PID controller implemented on a Teensy microcontroller.  
+The control law in the digital domain is expressed as:
+
+\[
+u[k] = K_p \cdot e[k] \;+\; K_i \cdot \sum_{i=0}^{k} e[i] \cdot T_s \;+\; K_d \cdot \frac{e[k] - e[k-1]}{T_s}
+\]
+
+Where:
+- \( u[k] \) → Control signal at step \(k\)  
+- \( e[k] \) → Error signal at step \(k\) (\( e[k] = r[k] - y[k] \))  
+- \( K_p \) → Proportional gain  
+- \( K_i \) → Integral gain  
+- \( K_d \) → Derivative gain  
+- \( T_s \) → Sampling time  
+
+For implementation efficiency, the incremental (recursive) form of the PID controller is used:
+
+\[
+u[k] = u[k-1] + a_0 \cdot e[k] + a_1 \cdot e[k-1] + a_2 \cdot e[k-2]
+\]
+
+With coefficients:
+
+\[
+a_0 = K_p \left(1 + \frac{T_s}{2 T_i} + \frac{T_d}{T_s}\right), \quad
+a_1 = -K_p \left(1 - \frac{T_s}{2 T_i} + \frac{2 T_d}{T_s}\right), \quad
+a_2 = K_p \cdot \frac{T_d}{T_s}
+\]
+
+Where:
+- \( T_i \) → Integral time constant  
+- \( T_d \) → Derivative time constant  
+
+
+
+
+
 ## 🌐 YouTube
 📺 [My Playlist](https://youtube.com/playlist?list=PLy6JmHc8bVqIY5rbHkpyFbhlm4xQOCF1T&si=1QBgLZTLAjbxRnrU)
 

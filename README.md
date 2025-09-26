@@ -1,25 +1,25 @@
-# 🚀 Auto robot con trayectoria asistida
+# 🚀 Assisted-Trajectory Robot Car
 
-## 📖 Descripción
-Se desarrolla y construye un auto robot modelar e implementar un sistema de trayectoria asistida (Drive by wire). El control del sistema se realizó usando Teensy, con el objetivo de aumentar la estabilidad y velocidad de los cómputos
-realizados. Se usó un giroscopio para medir la velocidad angular y un puente H para manipular los motores. 
+## 📖 Description
+A model robot car was developed and built to implement an assisted-trajectory system (Drive by Wire). The system control was performed using a Teensy, aiming to improve the stability and speed of computations.  
+A gyroscope was used to measure angular velocity, and an H-bridge was used to control the motors.  
 
-Para manejar el robot, se realizó por medio de un control remoto Flysky FS-6X utilizando una señal modulada en PPM/PWM.
+The robot is controlled via a Flysky FS-6X remote using a PPM/PWM modulated signal.
 
-## 📂 Contenido
-- `/Hardware` → esquemático, PCB, Gerbers.
-- `/control_car` → código en C para Teensy en entorno de Arduino.
-- `/docs` → fotos.
+## 📂 Contents
+- `/Hardware` → schematic, PCB, Gerbers.
+- `/control_car` → C code for Teensy in the Arduino environment.
+- `/docs` → photos.
 
 ## 🌐 YouTube
 📺 [Mi lista de reproducción](https://youtube.com/playlist?list=PLy6JmHc8bVqIY5rbHkpyFbhlm4xQOCF1T&si=1QBgLZTLAjbxRnrU)
 
-## 🔄 Lazo de Control
+## 🔄 Control Loop
 <p align="center">
 <img src="docs/diagrama auto.png" alt="Diagrama sistema" width="500">
 </p>
 
-## :triangular_ruler: Diagrama conexiones
+## :triangular_ruler: Connection Diagram
 <p align="center">
 <img src="docs/conexiones.png" alt="Esquema de conexiones" width="500">
 </p>
@@ -30,7 +30,7 @@ Para manejar el robot, se realizó por medio de un control remoto Flysky FS-6X u
 </p>
 ---
 
-## ⚡ Prototipo físico
+## ⚡ Physical Prototype
 <p align="center">
 <img src="docs/auto4.jpg" alt="Foto del prototipo" width="400">
 </p>
@@ -38,5 +38,5 @@ Para manejar el robot, se realizó por medio de un control remoto Flysky FS-6X u
 <img src="docs/auto7.jpg" alt="Foto del prototipo" width="400">
 </p>
 
-## 📜 Licencias
+## 📜 License
 MIT License  

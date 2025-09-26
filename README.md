@@ -12,7 +12,7 @@ A gyroscope measures angular velocity, while an H-bridge drives the motors. The 
 
 ## 📐 Digital PID Control
 
-The UAV uses a discrete PID controller implemented on a Teensy microcontroller.  
+The UAV uses a discrete PI controller implemented on a Teensy microcontroller.  
 The control law in the digital domain is expressed as:
 
 $$

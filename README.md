@@ -2,7 +2,8 @@
 
 ## 📖 Descripción
 Se desarrolla y construye un auto robot. El control del sistema se realizó usando Teensy, con el objetivo de aumentar la estabilidad y velocidad de los cómputos
-realizados. Se usó un giroscopio para medir la velocidad angular y un puente H para manipular los motores.
+realizados. Se usó un giroscopio para medir la velocidad angular y un puente H para manipular los motores. 
+Para manejar el robot, se realizó por medio de un control remoto Flysky FS-6X utilizando una señal modulada en PPM/PWM.
 
 ## 📂 Contenido
 - `/Hardware` → esquemático, PCB, Gerbers.
@@ -13,6 +14,11 @@ realizados. Se usó un giroscopio para medir la velocidad angular y un puente H 
 📺 [Mi lista de reproducción](https://youtube.com/playlist?list=PLy6JmHc8bVqIY5rbHkpyFbhlm4xQOCF1T&si=1QBgLZTLAjbxRnrU)
 
 ## 🔄 Lazo de Control
+<p align="center">
+<img src="docs/diagrama auto.png" alt="Diagrama sistema" width="500">
+</p>
+## :triangular_ruler: Diagrama conexiones
+
 <p align="center">
 <img src="docs/diagrama auto.png" alt="Diagrama sistema" width="500">
 </p>

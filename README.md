@@ -1,10 +1,9 @@
 # 🚀 Assisted-Trajectory Robot Car
 
-## 📖 Description
-A model robot car was developed and built to implement an assisted-trajectory system (Drive by Wire). The system control was performed using a Teensy, aiming to improve the stability and speed of computations.  
-A gyroscope was used to measure angular velocity, and an H-bridge was used to control the motors.  
+## 📖 Overview
+This model robot car was developed and built to implement an assisted-trajectory (Drive by Wire) system. The system is controlled using a Teensy microcontroller to enhance computational speed and stability.  
 
-The robot is controlled via a Flysky FS-6X remote using a PPM/PWM modulated signal.
+A gyroscope measures angular velocity, while an H-bridge drives the motors. The robot is operated via a Flysky FS-6X remote using a PPM/PWM modulated signal.
 
 ## 📂 Contents
 - `/Hardware` → schematic, PCB, Gerbers.

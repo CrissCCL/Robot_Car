@@ -11,7 +11,7 @@ A gyroscope measures angular velocity, while an H-bridge drives the motors. The 
 - `/docs` → photos.
 
 ## 🌐 YouTube
-📺 [Mi lista de reproducción](https://youtube.com/playlist?list=PLy6JmHc8bVqIY5rbHkpyFbhlm4xQOCF1T&si=1QBgLZTLAjbxRnrU)
+📺 [My Playlist](https://youtube.com/playlist?list=PLy6JmHc8bVqIY5rbHkpyFbhlm4xQOCF1T&si=1QBgLZTLAjbxRnrU)
 
 ## 🔄 Control Loop
 <p align="center">

@@ -46,8 +46,6 @@ $$
 K_1 = -K_p + \frac{K_p}{2T_i} T_s
 $$
 
-
-
 ## :triangular_ruler: Connection Diagram
 <p align="center">
 <img src="docs/conexiones.png" alt="Esquema de conexiones" width="500">
@@ -57,7 +55,6 @@ $$
 <p align="center">
 <img src="docs/shield teensy_v2.jpg" alt="PCB Render" width="500">
 </p>
----
 
 ## ⚡ Physical Prototype
 <p align="center">

@@ -51,10 +51,10 @@ $$
 ### Control Signal:
 
 $$
-motor_1=u_{PWR}+Gyro_{PWM}
+motor_1=PWR_{PWM}+Gyro_{PWM}
 $$
 $$
-motor_2=u_{PWR}-Gyro_{PWM}
+motor_2=PWR_{PWM}-Gyro_{PWM}
 $$
 
 ## :triangular_ruler: Connection Diagram

@@ -35,6 +35,8 @@ Digital PI controller implemented for Yaw rate measured in Gyroscope,
 $$
 Gyro_{PWM}(n) = Gyro_{PWM}(n-1) + K_0 e(n) + K_1 e(n-1)
 $$
+
+
 ### Parameters:
 The parameters are adjusted for the angular rate,
 
@@ -44,6 +46,15 @@ $$
 
 $$
 K_1 = -K_p + \frac{K_p}{2T_i} T_s
+$$
+
+### Control Signal:
+
+$$
+motor_1=u_{PWR}+Gyro_{PWM}
+$$
+$$
+motor_2=u_{PWR}-Gyro_{PWM}
 $$
 
 ## :triangular_ruler: Connection Diagram

@@ -29,6 +29,7 @@ The control law in the digital domain is expressed as:
 $$
 u(n) = u(n-1) + K_0 e(n) + K_1 e(n-1)
 $$
+
 Digital PI controller implemented for Yaw rate measured in Gyroscope,
 
 $$

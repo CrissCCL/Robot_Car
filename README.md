@@ -37,6 +37,7 @@ Gyro_{PWM}(n) = Gyro_{PWM}(n-1) + K_0 e(n) + K_1 e(n-1)
 $$
 ### Parameters:
 The parameters are adjusted for each of the angular rate,
+
 $$
 K_0 = K_p + \frac{K_p}{2T_i} T_s
 $$

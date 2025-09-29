@@ -83,14 +83,10 @@ Where:
 - $$( n_a, n_b)$$: model orders  
 - $$e(k) $$: disturbance/noise  
 
----
-
 ### 🔹 Results Overview  
 - ✅ The PI controller improved **trajectory tracking** and reduced steady-state error.  
 - 📉 The ARX model provided a good approximation of the system dynamics, with slight deviations due to unmodeled nonlinearities.  
 - ⚖️ The comparison validates the feasibility of using simple parametric models (ARX) for **controller design and evaluation**.  
-
----
 
 ### 🔹 Experimental Plots  
 

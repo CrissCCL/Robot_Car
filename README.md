@@ -95,28 +95,8 @@ Where:
 ### 🔹 Experimental Plots  
 
 <p align="center">
-<img src="docs/test_pi_response.png" alt="PI Control Response" width="500">
+<img src="docs/controlSim_Exp.png" alt="ARX vs Experimental Comparison" width="500">
 </p>
-
-<p align="center">
-<img src="docs/arx_vs_experimental.png" alt="ARX vs Experimental Comparison" width="500">
-</p>
-
----
-
-📌 *This section is part of ongoing experiments. Future work includes testing with **full PID control** and comparing with more advanced system identification techniques.*
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## 🖼️ Render 3D PCB
 <p align="center">

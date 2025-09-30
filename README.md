@@ -100,12 +100,18 @@ Where:
 </p>
 
 ## ⚡ Physical Prototype
-<p align="center">
-<img src="docs/auto4.jpg" alt="Foto del prototipo" width="400">
-</p>
-<p align="center">
-<img src="docs/auto7.jpg" alt="Foto del prototipo" width="400">
-</p>
+<table>
+  <tr>
+    <td align="center">
+      <img src="docs/auto4.jpg" alt="Foto del prototipo" width="400"><br>
+      <sub>Device — front</sub>
+    </td>
+    <td align="center">
+      <img src="docs/auto7.jpg" alt="Foto del prototipo" width="400"><br>
+      <sub>Device — back</sub>
+    </td>
+  </tr>
+</table>
 
 ## 📜 License
 MIT License  

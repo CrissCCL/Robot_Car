@@ -100,15 +100,16 @@ Where:
 </p>
 
 ## ⚡ Physical Prototype
+
 <table>
   <tr>
     <td align="center">
       <img src="docs/auto4.jpg" alt="Foto del prototipo" width="400"><br>
-      <sub>Device — front</sub>
+      <sub>assembly device</sub>
     </td>
     <td align="center">
       <img src="docs/auto7.jpg" alt="Foto del prototipo" width="400"><br>
-      <sub>Device — back</sub>
+      <sub>Device complete setup</sub>
     </td>
   </tr>
 </table>

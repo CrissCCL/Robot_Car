@@ -170,7 +170,7 @@ if (SwA<= 1000) {
 // Configuración del Motor 1 hacia adelante
 digitalWrite(IN1, LOW);
 digitalWrite(IN2, HIGH);
-// Configuración del Motor 2 hacia atras
+// Configuración del Motor 1 hacia adelante
 digitalWrite(IN3, HIGH);
 digitalWrite(IN4, LOW);
 uA=PwR_prop+uSig;

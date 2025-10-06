@@ -7,7 +7,10 @@ float Rx_Val[] = { 0, 0, 0, 0, 0, 0, 0, 0 };
 int ChannelNumber = 0;
 float PwR_prop;
 float SwA;
+float SwB;
 float Rotar;
+float refYaw;
+float uSig=0.0;
 float uYaw=0.0,uYaw_1=0.0;
 float tiempo=0.0;
 float K0=-11.8271;
@@ -99,7 +102,7 @@ void setup() {
   analogWriteResolution(12);  // Resolución: 12 bits (4096 niveles)
   ReceiverInput.begin(14);
   delay(250);
-  while (Rx_Val[2] < 1020 || Rx_Val[2] > 1050) {
+  while (Rx_Val[2] < 998 || Rx_Val[2] > 1050) {
     read_Rx();
     delay(4);
   }
@@ -128,22 +131,38 @@ void setup() {
 void loop() {
   read_Rx();
   gyro_signals();
+  PwR_prop = Rx_Val[2];
+  SwA = Rx_Val[4];
+  SwB = Rx_Val[5];
   RateYaw-=RateCalibrationYaw;
+  // Configuración del Motor 2 hacia adelante
   if (SwA<= 1000) {
   Rotar= -(Rx_Val[0]-1500);
   }
+  // Configuración del Motor 2 hacia atras
   if (SwA>= 1990) {
   Rotar= (Rx_Val[0]-1500);
   }
-  PwR_prop = Rx_Val[2];
-  SwA = Rx_Val[4];
-
-
-e=Rotar*0.15-RateYaw; // microseg a °/s  -> rotar*0.15  1000 a 2000 a -75 °/s y 75 °/s
+if (SwB<= 1000){
+// control manual
+refYaw=RateYaw;
+}
+if (SwB>= 1990){
+// control automatico
+refYaw=Rotar*0.15; // microseg a °/s  -> rotar*0.15  1000 a 2000 a -75 °/s y 75 °/s
+}
+e=refYaw-RateYaw; 
 uYaw=uYaw_1+K0*e+K1*e_1;
 uYaw_1=uYaw;
 e_1=e;
-
+if (SwB<= 1000){
+// control manual
+uSig=-Rotar;
+}
+if (SwB>= 1990){
+// control automatico
+uSig=uYaw;
+}
 if (PwR_prop>1800){
   PwR_prop=1800;
 }
@@ -151,11 +170,11 @@ if (SwA<= 1000) {
 // Configuración del Motor 1 hacia adelante
 digitalWrite(IN1, LOW);
 digitalWrite(IN2, HIGH);
-// Configuración del Motor 2 hacia adelante
+// Configuración del Motor 2 hacia atras
 digitalWrite(IN3, HIGH);
 digitalWrite(IN4, LOW);
-uA=PwR_prop+uYaw;
-uB=PwR_prop-uYaw;
+uA=PwR_prop+uSig;
+uB=PwR_prop-uSig;
 }
 if (SwA>= 1990) {
   // Configuración del Motor 1 hacia atras
@@ -164,8 +183,8 @@ if (SwA>= 1990) {
   // Configuración del Motor 2 hacia atras
   digitalWrite(IN3, LOW);
   digitalWrite(IN4, HIGH);
-  uA=PwR_prop-uYaw;
-  uB=PwR_prop+uYaw;
+  uA=PwR_prop-uSig;
+  uB=PwR_prop+uSig;
 }  
 
 

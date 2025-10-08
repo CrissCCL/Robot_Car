@@ -3,7 +3,7 @@
 ## 📖 Overview
 This model robot car was developed and built to implement an assisted-trajectory (Drive by Wire) system. The system is controlled using a Teensy microcontroller to enhance computational speed and stability.  
 
-A gyroscope measures angular velocity, while an H-bridge drives the motors. The robot is operated via a Flysky FS-6X remote using a PPM/PWM modulated signal.
+A gyroscope MPU6050 measures angular velocity, while an H-bridge L298N drives the motors. The robot is operated via a Flysky FS-6X remote using a PPM/PWM modulated signal.
 
 ## 📂 Contents
 - `/Hardware` → schematic, PCB, Gerbers.

@@ -22,7 +22,7 @@ A gyroscope MPU6050 measures angular velocity, while an H-bridge L298N drives th
 - **Sampling period:** **0.004 seconds (250 Hz)**  
 - **Data transmission:** UART link to a **Raspberry Pi 4B** for logging and postprocessing  
 - **Data logging:** Raspberry Pi saves incoming telemetry to `.csv` files for analysis  
-- **Visualization:**  offline monitoring and plotting via Matlab
+- **Visualization:**  Offline monitoring and plotting via Matlab
 
 
 

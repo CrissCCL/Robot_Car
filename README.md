@@ -1,7 +1,7 @@
 # 🚀 Assisted-Trajectory Robot Car
 
 ## 📖 Overview
-This model robot car was developed and built to implement an assisted-trajectory (Drive by Wire) system. The system is controlled using a Teensy microcontroller to enhance computational speed and stability.  
+This model robot car was developed and built to implement an assisted-trajectory (Drive by Wire) system. The system is controlled using a Teensy 4.0 microcontroller to enhance computational speed and stability.  
 
 A gyroscope MPU6050 measures angular velocity, while an H-bridge L298N drives the motors. The robot is operated via a Flysky FS-6X remote using a PPM/PWM modulated signal.
 
@@ -12,6 +12,19 @@ A gyroscope MPU6050 measures angular velocity, while an H-bridge L298N drives th
 
 ## 🌐 YouTube
 📺 [My Playlist](https://youtube.com/playlist?list=PLy6JmHc8bVqIY5rbHkpyFbhlm4xQOCF1T&si=1QBgLZTLAjbxRnrU)
+
+
+## ⚙️ System Description — Auto Robot (Assisted-Trajectory)
+- **Controller:** Teensy (high-speed MCU for improved stability and processing)  
+- **Sensors:** Gyroscope (angular velocity) and supporting encoders/IMU as available  
+- **Actuators:** Dual DC motors with H-bridge driver  
+- **Control Strategy:** PI-assisted trajectory control (drive-by-wire)  
+- **Sampling period:** **0.004 seconds (250 Hz)**  
+- **Data transmission:** UART link to a **Raspberry Pi 4B** for logging and postprocessing  
+- **Data logging:** Raspberry Pi saves incoming telemetry to `.csv` files for analysis  
+- **Visualization:** Real-time monitoring and plotting via Matlab (or offline from CSV)
+
+
 
 ## 🔄 Control Loop
 <p align="center">

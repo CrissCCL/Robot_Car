@@ -15,7 +15,7 @@ A gyroscope MPU6050 measures angular velocity, while an H-bridge L298N drives th
 
 
 ## ⚙️ System Description — Auto Robot (Assisted-Trajectory)
-- **Controller:** Teensy (high-speed MCU for improved stability and processing)  
+- **Controller:** Teensy 4.0 (high-speed MCU for improved stability and processing)  
 - **Sensors:** Gyroscope (angular velocity) and supporting encoders/IMU as available  
 - **Actuators:** Dual DC motors with H-bridge driver  
 - **Control Strategy:** PI-assisted trajectory control (drive-by-wire)  

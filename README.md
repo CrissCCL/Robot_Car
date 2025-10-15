@@ -27,6 +27,7 @@ A gyroscope MPU6050 measures angular velocity, while an H-bridge L298N drives th
 
 
 ## 🔄 Control Loop
+
 <p align="center">
 <img src="docs/diagrama auto.png" alt="Diagrama sistema" width="500">
 </p>

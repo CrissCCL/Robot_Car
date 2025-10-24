@@ -111,7 +111,7 @@ Where:
 ## 🖼️ Render 3D PCB
 
 <p align="center">
-<img https://github.com/user-attachments/assets/4ba71673-e3fc-413e-8d6d-a915e6dcacb8" alt="PCB Render" width="500">
+<img src="https://github.com/user-attachments/assets/4ba71673-e3fc-413e-8d6d-a915e6dcacb8" alt="PCB Render" width="500">
 </p>
 
 ## ⚡ Physical Prototype

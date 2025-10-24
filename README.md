@@ -8,7 +8,6 @@ A gyroscope MPU6050 measures angular velocity, while an H-bridge L298N drives th
 ## 📂 Contents
 - `/Hardware` → schematic, PCB, Gerbers.
 - `/control_car` → C code for Teensy in the Arduino environment.
-- `/docs` → photos.
 
 ## 🌐 YouTube
 📺 [My Playlist](https://youtube.com/playlist?list=PLy6JmHc8bVqIY5rbHkpyFbhlm4xQOCF1T&si=1QBgLZTLAjbxRnrU)
@@ -29,7 +28,7 @@ A gyroscope MPU6050 measures angular velocity, while an H-bridge L298N drives th
 ## 🔄 Control Loop
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/diagrama auto.png" alt="Diagrama sistema" width="500">
+<img src="https://github.com/user-attachments/assets/6554999b-4045-4824-b776-99e6d4a64039" alt="Diagrama sistema" width="500">
 </p>
 
 ### Controlled Variables
@@ -72,8 +71,9 @@ motor_2=PWR_{PWM}-Gyro_{PWM}
 $$
 
 ## :triangular_ruler: Connection Diagram
+
 <p align="center">
-<img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/conexiones.png" alt="Esquema de conexiones" width="500">
+<img src="https://github.com/user-attachments/assets/3c3a294c-4754-4421-848b-a7afd0249743" alt="Esquema de conexiones" width="500">
 </p>
 
 ## 🧪 PI Control Test and ARX Model Comparison  
@@ -105,12 +105,13 @@ Where:
 ### 🔹 Experimental Plots  
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/controlSim_Exp.png" alt="ARX vs Experimental Comparison" width="500">
+<img src="https://github.com/user-attachments/assets/df96d89c-fe9f-4e2f-a7c6-7a3ea11e48c8" alt="ARX vs Experimental Comparison" width="500">
 </p>
 
 ## 🖼️ Render 3D PCB
+
 <p align="center">
-<img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/shield teensy_v2.jpg" alt="PCB Render" width="500">
+<img https://github.com/user-attachments/assets/4ba71673-e3fc-413e-8d6d-a915e6dcacb8" alt="PCB Render" width="500">
 </p>
 
 ## ⚡ Physical Prototype
@@ -118,11 +119,11 @@ Where:
 <table>
   <tr>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/auto4.jpg" alt="Foto del prototipo" width="450"><br>
+      <img src="https://github.com/user-attachments/assets/531a438f-fe71-4ad5-b7c5-ba94d4f77213" alt="Foto del prototipo" width="450"><br>
       <sub>Assembly device</sub>
     </td>
     <td align="center">
-      <img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/auto7.jpg" alt="Foto del prototipo" width="450"><br>
+      <img src="https://github.com/user-attachments/assets/287534e9-c59d-42de-ac4f-8b715e09e8dd" alt="Foto del prototipo" width="450"><br>
       <sub>Complete setup</sub>
     </td>
   </tr>

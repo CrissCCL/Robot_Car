@@ -29,7 +29,7 @@ A gyroscope MPU6050 measures angular velocity, while an H-bridge L298N drives th
 ## 🔄 Control Loop
 
 <p align="center">
-<img src="docs/diagrama auto.png" alt="Diagrama sistema" width="500">
+<img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/diagrama auto.png" alt="Diagrama sistema" width="500">
 </p>
 
 ### Controlled Variables
@@ -73,7 +73,7 @@ $$
 
 ## :triangular_ruler: Connection Diagram
 <p align="center">
-<img src="docs/conexiones.png" alt="Esquema de conexiones" width="500">
+<img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/conexiones.png" alt="Esquema de conexiones" width="500">
 </p>
 
 ## 🧪 PI Control Test and ARX Model Comparison  
@@ -105,12 +105,12 @@ Where:
 ### 🔹 Experimental Plots  
 
 <p align="center">
-<img src="docs/controlSim_Exp.png" alt="ARX vs Experimental Comparison" width="500">
+<img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/controlSim_Exp.png" alt="ARX vs Experimental Comparison" width="500">
 </p>
 
 ## 🖼️ Render 3D PCB
 <p align="center">
-<img src="docs/shield teensy_v2.jpg" alt="PCB Render" width="500">
+<img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/shield teensy_v2.jpg" alt="PCB Render" width="500">
 </p>
 
 ## ⚡ Physical Prototype
@@ -118,11 +118,11 @@ Where:
 <table>
   <tr>
     <td align="center">
-      <img src="docs/auto4.jpg" alt="Foto del prototipo" width="450"><br>
+      <img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/auto4.jpg" alt="Foto del prototipo" width="450"><br>
       <sub>Assembly device</sub>
     </td>
     <td align="center">
-      <img src="docs/auto7.jpg" alt="Foto del prototipo" width="450"><br>
+      <img src="https://raw.githubusercontent.com/CrissCCL/Robot_Car/main/docs/auto7.jpg" alt="Foto del prototipo" width="450"><br>
       <sub>Complete setup</sub>
     </td>
   </tr>

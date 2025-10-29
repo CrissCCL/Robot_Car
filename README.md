@@ -129,5 +129,14 @@ Where:
   </tr>
 </table>
 
+## 🔗 Related Repositories
+
+For additional tutorials and examples related to digital control simulations, visit:
+
+- [Digital Control — Anti-Windup (Positional PI)](https://github.com/CrissCCL/Digital_ControlAntiWindup)
+- [Digital Control Simulation — First Order System + Saturation](https://github.com/CrissCCL/Digital_ControlSim)
+- [Digital Control Simulation — ARX Model + Saturation](https://github.com/CrissCCL/Digital_ControlSimARX)
+
+
 ## 📜 License
 MIT License  

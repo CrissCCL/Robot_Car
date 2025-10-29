@@ -36,6 +36,12 @@ A gyroscope MPU6050 measures angular velocity, while an H-bridge L298N drives th
 
 ## 📐 Digital PID Control
 
+The PID controllers implemented in this project are **incremental (velocity form)** and use **trapezoidal integration** for the integral term.  
+This ensures:
+- Accurate discrete-time implementation suitable for microcontrollers.
+- Consistency between simulation and embedded hardware behavior.
+- Avoidance of integral windup when combined with actuator saturation or anti-windup mechanisms.
+
 The UAV uses a discrete PI controller implemented on a Teensy microcontroller.  
 The control law in the digital domain is expressed as:
 
@@ -48,6 +54,8 @@ Digital PI controller implemented for Yaw rate measured in Gyroscope,
 $$
 Gyro_{PWM}(n) = Gyro_{PWM}(n-1) + K_0 e(n) + K_1 e(n-1)
 $$
+
+
 
 
 ### Parameters:

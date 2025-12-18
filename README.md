@@ -11,15 +11,11 @@ A gyroscope MPU6050 measures angular rate, while an H-bridge L298N drives the mo
 The currently implemented PCB used in this robot car **does not expose Teensy 4.0 pins 12 and 13**, as the original board was designed for a specific application and limited I/O requirements.
 
 As part of an ongoing hardware update, a **new pin expansion and routing strategy** is being developed.  
-This updated PCB revision exposes **all relevant Teensy 4.0 pins**, including pins **12 and 13**, allowing:
-
-- Greater flexibility for future peripherals
-- Support for multiple use cases beyond this project
-- Easier reuse of the hardware across different platforms and experiments
+This updated PCB revision exposes **all relevant Teensy 4.0 pins**, including pins **12 and 13**, enabling greater flexibility and reuse across multiple projects.
 
 This improvement aligns with the goal of creating **modular and reusable hardware blocks** that can be shared across multiple projects.
 
-The updated pin expansion hardware is referenced in the **Related Repositories** section at the end of this document.
+🔗 **Note:** The updated pin expansion hardware is referenced in the **Related Repositories** section at the end of this document.
 
 
 ## 📂 Contents

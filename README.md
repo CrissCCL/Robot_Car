@@ -3,7 +3,24 @@
 ## 📖 Overview
 This model robot car was developed and built to implement an assisted-trajectory (Drive by Wire) system. The system is controlled using a Teensy 4.0 microcontroller to enhance computational speed and stability.  
 
-A gyroscope MPU6050 measures angular velocity, while an H-bridge L298N drives the motors. The robot is operated via a Flysky FS-6X remote using a PPM/PWM modulated signal.
+A gyroscope MPU6050 measures angular rate, while an H-bridge L298N drives the motors. The robot is operated via a Flysky FS-6X remote using a PPM/PWM modulated signal.
+
+
+## 🧩 Hardware Notes — Pin Availability
+
+The currently implemented PCB used in this robot car **does not expose Teensy 4.0 pins 12 and 13**, as the original board was designed for a specific application and limited I/O requirements.
+
+As part of an ongoing hardware update, a **new pin expansion and routing strategy** is being developed.  
+This updated PCB revision exposes **all relevant Teensy 4.0 pins**, including pins **12 and 13**, allowing:
+
+- Greater flexibility for future peripherals
+- Support for multiple use cases beyond this project
+- Easier reuse of the hardware across different platforms and experiments
+
+This improvement aligns with the goal of creating **modular and reusable hardware blocks** that can be shared across multiple projects.
+
+The updated pin expansion hardware is referenced in the **Related Repositories** section at the end of this document.
+
 
 ## 📂 Contents
 - `/Hardware` → schematic, PCB, Gerbers.

@@ -15,7 +15,7 @@ This updated PCB revision exposes **all relevant Teensy 4.0 pins**, including pi
 
 This improvement aligns with the goal of creating **modular and reusable hardware blocks** that can be shared across multiple projects.
 
-> ⚠️ **Hardware Update Notice:**  
+> 🔗 **NOTE:**  
 > The updated pin expansion hardware is referenced in the **Related Repositories** section at the end of this document.
 
 

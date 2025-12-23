@@ -20,7 +20,7 @@ This improvement aligns with the goal of creating **modular and reusable hardwar
 
 
 ## 📂 Contents
-- `/Hardware` → schematic, PCB, Gerbers.
+- `/Hardware` → schematic, Gerbers.
 - `/control_car` → C code for Teensy in the Arduino environment.
 
 ## 🌐 YouTube

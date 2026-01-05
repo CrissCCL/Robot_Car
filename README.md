@@ -162,7 +162,8 @@ For additional tutorials and examples related to digital control simulations, vi
 An updated Teensy 4.0 pin expansion shield is available and can be reused across different projects:
 - [Teensy 4.0 Pin Expansion Shield](https://github.com/CrissCCL/Teensy_SHIELD)
 
-
+## 🤝 Support projects
+ Support me on Patreon [https://www.patreon.com/c/CrissCCL](https://www.patreon.com/c/CrissCCL)
 
 ## 📜 License
 MIT License  

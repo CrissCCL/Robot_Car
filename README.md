@@ -1,4 +1,4 @@
-# 🚀 Assisted-Trajectory Robot Car
+# 🚗🤖 Assisted-Trajectory Robot Car
 
 ## 📖 Overview
 This model robot car was developed and built to implement an assisted-trajectory (Drive by Wire) system. The system is controlled using a Teensy 4.0 microcontroller to enhance computational speed and stability.  

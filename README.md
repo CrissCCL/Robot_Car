@@ -1,5 +1,12 @@
 # 🚗🤖 Assisted-Trajectory Robot Car
 
+![Embedded](https://img.shields.io/badge/Embedded-Teensy-blue)
+![C++](https://img.shields.io/badge/C++-Firmware-green)
+![Robotics](https://img.shields.io/badge/Robotics-Robot%20Car-orange)
+![Control](https://img.shields.io/badge/Control-Drive--by--Wire-lightgrey)
+![License](https://img.shields.io/badge/License-See%20repo-lightgrey)
+
+
 ## 📖 Overview
 This model robot car was developed and built to implement an assisted-trajectory (Drive by Wire) system. The system is controlled using a Teensy 4.0 microcontroller to enhance computational speed and stability.  
 

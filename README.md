@@ -4,7 +4,7 @@
 ![C++](https://img.shields.io/badge/C++-Firmware-green)
 ![Robotics](https://img.shields.io/badge/Robotics-Robot%20Car-orange)
 ![Control](https://img.shields.io/badge/Control-Drive--by--Wire-lightgrey)
-![License](https://img.shields.io/badge/License-See%20repo-lightgrey)
+![License](https://img.shields.io/badge/License-MIT-lightgrey)
 
 
 ## 📖 Overview

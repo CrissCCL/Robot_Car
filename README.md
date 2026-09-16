@@ -29,6 +29,7 @@ This improvement aligns with the goal of creating **modular and reusable hardwar
 ## 📂 Contents
 - `/Hardware` → schematic, Gerbers.
 - `/control_car` → C code for Teensy in the Arduino environment.
+- `/control_car_bumpless_fix` → C code for Teensy in the Arduino environment, bumpless transfer bug fixed.
 
 ## 🌐 YouTube
 📺 [My Playlist](https://youtube.com/playlist?list=PLy6JmHc8bVqIY5rbHkpyFbhlm4xQOCF1T&si=1QBgLZTLAjbxRnrU)
